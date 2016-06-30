@@ -32,3 +32,10 @@ a {
 .section-b {
     padding-bottom: 40px;
 }
+
+.logo-img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
