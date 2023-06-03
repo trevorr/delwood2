@@ -7,6 +7,14 @@ terraform {
       version = ">= 5.1.0, < 6.0.0"
     }
   }
+
+  backend "remote" {
+    organization = "delwood2"
+
+    workspaces {
+      name = "delwood2"
+    }
+  }
 }
 
 provider "aws" {
